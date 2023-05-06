@@ -1,15 +1,15 @@
 #include "BlinkTimes.h"
 
 // define pins for LED and push buttons
-const int LED_PIN_2 = 2;
-const int BUTTON_PIN_21 = 21;
-const int BUTTON_PIN_22 = 22;
-const int BUTTON_PIN_23 = 23;
+const int LED_PIN_2 = 3;  //connect motor to pin 3 
+const int BUTTON_PIN_21 = 2;  //connect start push button to pin 2.
+const int BUTTON_PIN_22 = 9;  //connect stop push button to pin 9.
+const int BUTTON_PIN_23 = 4;  //connect pause/resume push button to pin 4.
 
-const int LED_PIN_15 = 15;
-const int LED_PIN_4 = 4;
-const int LED_PIN_5 = 5;
-const int LED_PIN_19 = 19;
+const int LED_PIN_15 = 5;  //connect start led button to pin 5.
+const int LED_PIN_4 = 6;  //connect stop led button to pin 6.
+const int LED_PIN_5 = 8;   //connect pause/resume led button to pin 8.
+const int LED_PIN_19 = 7;  //connect status led button to pin 7.
 
 
 // define variables for LED state and blink interval
